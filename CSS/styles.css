@@ -92,18 +92,28 @@ footer ul li{
   color: #8D7B68;
 }
 
- footer a{
+footer a{
   color: #8D7B68;
- }
+}
 
- footer .redes{
+footer .redes{
   font-size: 25px;
   display: flex;
- } 
+} 
 
- footer .redes a{
+footer .redes a{
   margin: 0 7.5px;
- } 
+} 
+
+.main-titles{
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #8D7B68;
+}
 
 .boton{
   text-align: center;
@@ -181,7 +191,7 @@ footer ul li{
   position: relative;
 }
 
- .row{
+.row{
   display: flex;
   flex-wrap: wrap;
   margin-left: 0px;
@@ -373,6 +383,9 @@ width: 100vh;
   display: none;
 }
 
+
+/* Contactenos- formulario */
+
 #contactenos{
   position: relative;
 }
@@ -415,6 +428,10 @@ width: 100vh;
 
 #contactenos form .form-block.bloque-ultimo {
  margin-bottom: 0;
+}
+.comments{
+  color:white;
+  font-size: 22px;
 }
 
 /* slider */
