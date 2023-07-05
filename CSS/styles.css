@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -150,9 +152,11 @@ footer .redes a{
 
 .boton.boton-negro{
   color: white;
-  background-color: black;
+  background-color: #8D7B68;
   font-size: 20px;
   font-weight: bold;
+  border: 1px solid  white;
+  border-radius: 20px;
 }
 
 .boton.boton-negro:hover{
@@ -438,6 +442,7 @@ width: 100vh;
 .comments{
   color:white;
   font-size: 22px;
+  margin-bottom: 5px;
 }
 
 /* slider */
