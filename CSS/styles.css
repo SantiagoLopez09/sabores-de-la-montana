@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -217,6 +218,7 @@ footer .redes a{
 
 .columna-25{
   width: 25%;
+  
 }
 
 .columna-33{
@@ -245,6 +247,7 @@ footer .redes a{
 .empujar-0{
   margin-left: 0;
 }
+
 .video-container{
 display: flex;
 justify-content: center;
