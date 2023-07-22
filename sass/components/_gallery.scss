@@ -1,0 +1,20 @@
+
+/* ESTILOS GALERIA */
+#galeria h4{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  position: absolute;
+  top: 40% ;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+}
+
+#galeria img{
+  padding: 10px;
+}
+
+#galeria .cuadrado-perfecto:hover h4{
+  display: none;
+}

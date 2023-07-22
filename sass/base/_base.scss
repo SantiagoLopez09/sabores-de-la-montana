@@ -1,0 +1,110 @@
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+  
+p{
+  color:#A4907C;  
+  font-size: 18px;
+  text-align: justify;
+}
+
+header{
+  padding: 0px 0 ;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 2;
+  background-color: #C8B6A6;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+header .container .logo{
+  margin: 10px;
+  width: 120px;
+}
+
+header .container nav a{
+  color: #8D7B68;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+header .container .hamb{
+  display: none;
+  position: relative;
+
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #8D7B68;
+  margin-top: 0;
+}
+
+/* ESTILOS FOOTER */
+footer.seccion{
+  position:relative;
+  background-color: #C8B6A6;
+  color: #8D7B68;
+  padding-bottom: 0;
+  top: 120px;
+}
+
+footer .barra-footer{
+  background-color: #A4907C;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:  20px;
+  padding-bottom: 20px;
+}
+
+footer .logo-footer{
+  width: 150px;
+  padding: 0px;
+  margin-left: 30px;
+}
+
+footer ul{
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+footer ul li{
+  margin-bottom: 10px;
+  color: #8D7B68;
+}
+
+footer a{
+  color: #8D7B68;
+}
+
+footer .redes{
+  font-size: 25px;
+  display: flex;
+} 
+
+footer .redes a{
+  margin: 0 7.5px;
+} 

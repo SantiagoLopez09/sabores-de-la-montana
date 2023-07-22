@@ -1,0 +1,65 @@
+
+/* ESTILOS INICIO */
+#inicio{
+  position: relative;
+}
+
+#inicio img{
+  width: 100%;
+  display: block;
+}
+
+#inicio .bloque-inicio{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 400px;
+  text-align: center;
+  margin-left: -200px;
+}
+
+#inicio .bloque-inicio h1{
+  color: white;
+  font-size: 50px;
+}
+
+#inicio .bloque-inicio p{
+  color: white;
+  font-size: 16px;
+}
+
+#nosotros{
+  background-image: url(../assets/granos.jpeg);
+  background-size: cover;
+}
+
+#nosotros p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-style:italic ;
+  font-weight: bold;
+}
+
+#servicios .bloque-servicio{
+  border: 1px solid transparent;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img{
+  width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto{
+  padding-bottom: 56.25%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio{
+  padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3{
+  margin-top: 0;
+  font-size: 25px;
+  color: #8D7B68;
+  text-align: center;
+}

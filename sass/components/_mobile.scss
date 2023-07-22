@@ -1,0 +1,119 @@
+
+
+/* VERSIÓN MOBILE */
+@media(max-width: 760px){
+  body{
+    font-size: 15px;
+    width: 100%;
+  }
+
+  header .container nav{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    transform: translateX(100%);
+  }
+
+  header .container nav.open{
+    transform: translateX(0);
+  }
+
+  header .container nav a{
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  header .container .hamb{
+    display: block;
+    font-size: 40px;
+    color: #8D7B68;
+  }
+
+  form .boton.boton-negro{
+    width: 100%;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  footer .logo-footer {
+    width: 50%;
+  }
+
+  footer .redes{
+    justify-content: center;
+  }
+/* INDEX */
+.video-container{
+  display: flex;
+  flex-direction: column;
+}
+.documental{
+  margin: 0;
+  width: 100vw;
+}
+
+  .container{
+    width: 100%;
+  }
+
+  .columna-mobile-100{
+    width: 100%;
+  }
+
+  .columna-mobile-50{
+    width: 50%;
+  }
+
+  .empujar-mobile-0{
+    margin-left: 0;
+  }
+
+  .sinpadding-mobile{
+    padding: 0;
+  }
+
+  #inicio{
+    height: 100vh;
+  }
+
+  #inicio img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Productos */
+
+
+  #servicios .bloque-servicio{
+    margin-bottom:15px ;
+  }
+
+#contactenos{
+  padding: 0;
+}
+
+#contactenos iframe{
+  position: relative;
+  height: 50vh;
+}
+
+.slider{
+  display:flex;
+  margin: 0px;
+  width: 100%;
+
+}
+}
